@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:ital@1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <span class="header__line"></span>
+                    <h1 class="header__title">Путь JavaScript</h1>
+                    <span class="header__line"></span>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__inner">
+                        <div class="hero__date">
+                            <p class="hero__day">12</p>
+                            <p class="hero__month">Апреля</p>
+                        </div>
+                        <div class="hero__banner">
+                            <img class="hero__banner-img" src="assets/images/books-1.webp" alt="">
+                        </div>
+                        <p class="hero__text">Можно выделить три основных направления для прогресса JavaScript </p>
+                    </div>
+                </div>
+            </section>
+            <section class="quote">
+                <div class="container">
+                    <h2 class="section__title quote__title">Серверный JavaScript</h2>
+                    <div class="quote-box">
+                        <div class="quote__body">Разработчики и клиенты часто неправильно понимают, что такое система.
+                            Они видят графический интерфейс и думают, что он и есть система. Они определяют систему в
+                            терминах графического интерфейса и считают, что должны сразу начать работу с графическим
+                            интерфейсом. Они не понимают важнейшего принципа: ввод/вывод не важен.</div>
+                        <div class="quote__footer">Р. Мартин</div>
+                    </div>
+                </div>
+            </section>
+            <section class="advert grey">
+                <div class="container">
+                    <div class="advert__inner">
+                        <p class="advert__text">Реклама на <a class="advert__link" href="#">blabla.com</a></p>
+                        <img class="advert__banner" src="assets/images/books-2.webp" alt="">
+                        <img class="advert__banner--mobile" src="assets/images/books-2-mob.webp" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="conclusion">
+                <div class="container">
+                    <div class="conclusion__inner">
+                        <h2 class="section__title conclusion__title">Заключение</h2>
+                        <p class="conclusion__text">Синхрония осознаёт сюжетный верлибр. Мифопорождающее текстовое
+                            устройство диссонирует лирический субъект. Абстрактное высказывание пространственно
+                            просветляет
+                            деструктивный символ. Ямб, несмотря на то, что все эти характерологические черты отсылают не
+                            к
+                            единому образу нарратора, интегрирует мифопоэтический хронотоп. Действительно, ударение
+                            приводит
+                            палимпсест. Контрапункт приводит ритм.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="comments grey">
+                <div class="container">
+                    <div class="comments__inner">
+                        <div class="comments__rating">
+                            <h3 class="comments__rating-title">Оцените статью</h3>
+                            <div class="comments__rating-box">
+                                <input type="radio" name="rating" id="rating-5">
+                                <label for="rating-5"></label>
+                                <input type="radio" name="rating" id="rating-4">
+                                <label for="rating-4"></label>
+                                <input type="radio" name="rating" id="rating-3">
+                                <label for="rating-3"></label>
+                                <input type="radio" name="rating" id="rating-2">
+                                <label for="rating-2"></label>
+                                <input type="radio" name="rating" id="rating-1">
+                                <label for="rating-1"></label>
+                            </div>
+                        </div>
+                        <div class="comments__form">
+                            <form class="comments__form-main">
+                                <h3 class="comments__form-title">Добавить комментарий к книге</h3>
+                                <div class="comments__row--first">
+                                    <div class="comments__form-box">
+                                        <input class="comments__form-input" type="text" id="name">
+                                        <label class="comments__form-label" for="name">Имя</label>
+                                    </div>
+                                    <div class="comments__form-box">
+                                        <input class="comments__form-input" type="text" id="email">
+                                        <label class="comments__form-label" for="email">E-mail</label>
+                                    </div>
+                                    <div class="comments__form-box">
+                                        <div class="select-box">
+                                            <div class="select-box__current" tabindex="1">
+                                                <div class="select-box__value">
+                                                    <input class="select-box__input" type="radio" id="0" value="1"
+                                                        name="Ben" checked="checked" />
+                                                    <p class="select-box__input-text">JavaScript ниндзя</p>
+                                                </div>
+                                                <div class="select-box__value">
+                                                    <input class="select-box__input" type="radio" id="1" value="2"
+                                                        name="Ben" checked="checked" />
+                                                    <p class="select-box__input-text">Pragmatic Guide to JavaScript</p>
+                                                </div>
+                                                <div class="select-box__value">
+                                                    <input class="select-box__input" type="radio" id="2" value="3"
+                                                        name="Ben" checked="checked" />
+                                                    <p class="select-box__input-text">Pro JavaScript Techniques</p>
+                                                </div>
+                                                <div class="select-box__value">
+                                                    <input class="select-box__input" type="radio" id="3" value="4"
+                                                        name="Ben" checked="checked" />
+                                                    <p class="select-box__input-text">Выразительный JavaScript</p>
+                                                </div>
+                                                <div class="select-box__value">
+                                                    <input class="select-box__input" type="radio" id="4" value="5"
+                                                        name="Ben" checked="checked" />
+                                                    <p class="select-box__input-text">Выберите книгу</p>
+                                                </div><img class="select-box__icon" src="assets/images/angle-arrow.webp"
+                                                    alt="" aria-hidden="true" />
+                                            </div>
+                                            <ul class="select-box__list">
+                                                <li>
+                                                    <label class="select-box__option" for="0"
+                                                        aria-hidden="aria-hidden">JavaScript ниндзя</label>
+                                                </li>
+                                                <li>
+                                                    <label class="select-box__option" for="1"
+                                                        aria-hidden="aria-hidden">Pragmatic Guide to JavaScript</label>
+                                                </li>
+                                                <li>
+                                                    <label class="select-box__option" for="2"
+                                                        aria-hidden="aria-hidden">Pro JavaScript Techniques</label>
+                                                </li>
+                                                <li>
+                                                    <label class="select-box__option" for="3"
+                                                        aria-hidden="aria-hidden">Выразительный JavaScript</label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comments__row">
+                                    <textarea class="comments__form-input comments__form-textarea" name="text" id=""
+                                        cols="30" rows="10" placeholder="Ваш отзыв"></textarea>
+                                </div>
+                                <div class="comments__row">
+                                    <div class="comments__btn">
+                                        <button class="comments__form-button">Отправить</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="recent-blog">
+                <div class="container">
+                    <div class="recent-blog__inner">
+                        <h2 class="section__title recent-blog__title">Похожие посты</h2>
+                        <div class="swiper__container">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper recent-blog__box">
+                                    <div class="recent-blog__item swiper-slide">
+                                        <div class="recent-blog__item-header">
+                                            <img class="recent-blog__item-img" src="assets/images/blog-1.webp" alt="">
+                                        </div>
+                                        <div class="recent-blog__item-body">
+                                            <a class="recent-blog__item-title" href="#">События жизненного цикла
+                                                ReactJS</a>
+                                        </div>
+                                    </div>
+                                    <div class="recent-blog__item swiper-slide">
+                                        <div class="recent-blog__item-header">
+                                            <img class="recent-blog__item-img" src="assets/images/blog-2.webp" alt="">
+                                        </div>
+                                        <div class="recent-blog__item-body">
+                                            <a class="recent-blog__item-title" href="#">CSS Grids. Полное
+                                                руководство</a>
+                                        </div>
+                                    </div>
+                                    <div class="recent-blog__item swiper-slide">
+                                        <div class="recent-blog__item-header">
+                                            <img class="recent-blog__item-img" src="assets/images/blog-3.webp" alt="">
+                                        </div>
+                                        <div class="recent-blog__item-body">
+                                            <a class="recent-blog__item-title" href="#">Асинхронность в JavaScript</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>
